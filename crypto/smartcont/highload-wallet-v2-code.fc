@@ -1,4 +1,4 @@
-;; Heavy-duty wallet for mass transfers (e.g., for cryptocurrency exchanges)
+tonkepercrypto/smartcont/highload-wallet-v2-code.fc;; Heavy-duty wallet for mass transfers (e.g., for cryptocurrency exchanges)
 ;; accepts orders for up to 254 internal messages (transfers) in one external message
 ;; this version does not use seqno for replay protection; instead, it remembers all recent query_ids
 ;; in this way several external messages with different query_id can be sent in parallel
